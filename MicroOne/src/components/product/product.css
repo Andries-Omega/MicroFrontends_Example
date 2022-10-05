@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components{
+    .product-cart{
+        @apply w-96 h-[32rem] rounded-md flex flex-col
+    }
+
+    .product-image{
+        @apply w-96 h-[18rem] rounded-t-md bg-slate-900
+    }
+
+    .title{
+        @apply text-lg text-center font-medium mr-auto ml-5
+    }
+
+    .details-wrapper{
+        @apply w-full h-fit pb-3 flex flex-col items-center gap-3 border border-t-0 border-slate-900 bg-slate-50 rounded-b-md 
+    }
+
+    .view-details-btn{
+        @apply min-w-[95%] h-fit py-2 rounded-md border border-slate-900 hover:bg-slate-900 hover:text-slate-100 active:scale-90 duration-500
+    }
+
+    .add-to-cart-btn{
+        @apply min-w-[95%] h-fit py-2 rounded-md border border-slate-900 bg-slate-900 text-slate-100 active:scale-90 duration-500
+    }
+}

@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components{
+    .nav-container{
+        @apply h-16 bg-slate-900 w-screen top-0 left-0 sticky shadow-2xl flex justify-between items-center px-7
+    }
+}
